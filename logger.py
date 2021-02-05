@@ -17,9 +17,7 @@ class Logger():
 				self.success = 'wrong'
 		except Exception as e:
 			logins = {}
-			logins['omegatest'] = 'maxiflouz'
-			logins['raki'] = 'nath4079871724'
-			logins['nestati'] = 'Namur72220'
+			logins['admin'] = '1234'
 			if self.username in logins.keys():
 				if self.password == logins[self.username]:
 					self.success = 'yes'
