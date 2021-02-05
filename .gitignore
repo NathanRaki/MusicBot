@@ -4,3 +4,4 @@ dist
 accounts.txt
 proxies.txt
 urls.txt
+save.pickle
