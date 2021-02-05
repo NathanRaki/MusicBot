@@ -26,7 +26,8 @@ Password : 1234
 (You can change these in the logger.py file)
 
 ## How to use :
-You are supposed to have three txt files :
+You are supposed to have three txt files :  
 -> An accounts file that contains your Napster accounts credentials in this format : mail:password  
--> A proxies file with proxies ip and port for each Napster account : ip:port[username:password]  
--> An urls file with the musics you want to stream
+-> A proxies file with proxies ip and port for each Napster account : ip:port[:username:password]  
+-> An urls file with the musics you want to stream  
+Once you've entered these files in the application, just hit Start and the bot begins his magic.
