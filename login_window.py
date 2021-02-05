@@ -72,13 +72,6 @@ class Login():
 		self.warning_message.configure(justify='center')
 		self.warning_message.configure(width=300)
 
-		self.napster_logo = tk.Label(self.Form)
-		self.napster_logo.place(relx=0.088, rely=0.041, height=159, width=532)
-		self.napster_logo.configure(background="#000000")
-		self.img = ImageTk.PhotoImage(Image.open('napster.png'))
-		self.napster_logo.configure(image=self.img)
-		self.napster_logo.configure(text='''Label''')
-
 		self.login_button = tk.Button(self.Form)
 		self.login_button.place(relx=0.426, rely=0.611, height=33, width=101)
 		self.login_button.configure(background="#686868")
