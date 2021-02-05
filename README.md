@@ -31,3 +31,7 @@ You are supposed to have three txt files :
 -> A proxies file with proxies ip and port for each Napster account : ip:port[:username:password]  
 -> An urls file with the musics you want to stream  
 Once you've entered these files in the application, just hit Start and the bot begins his magic.
+
+## About Chromedriver
+You have to get the chromedriver that fits with your Chrome Version : https://chromedriver.chromium.org/downloads  
+If you don't know your chrome version, just start the bot and it will tell you if you have the wrong chromedriver.
