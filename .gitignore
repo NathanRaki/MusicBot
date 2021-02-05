@@ -1,3 +1,6 @@
 __pycache__/
 build
 dist
+accounts.txt
+proxies.txt
+urls.txt
